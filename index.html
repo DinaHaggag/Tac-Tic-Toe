@@ -5,11 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
+    <!-- css -->
     <link rel="stylesheet" href="css/style.css">
+   
 </head>
 <body>
+   <div class="first-screen">
+    <h1>Tic Tac Toe</h1>
     
+    <div class="start">
+    <button id="start">Start The Game</button>
+    </div>
+   </div>
 
+   <div class="the-game">
+    <div class="box">
+        <div class="screen"> Tic Tac Toe Game</div>
+        <table>
+            <tr>
+                <td class="cell" id="item1" onclick="game(this.id)"></td>
+                <td class="cell" id="item2" onclick="game(this.id)"></td>
+                <td class="cell" id="item3" onclick="game(this.id)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="item4" onclick="game(this.id)"></td>
+                <td class="cell" id="item5" onclick="game(this.id)"></td>
+                <td class="cell" id="item6" onclick="game(this.id)"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="item7" onclick="game(this.id)"></td>
+                <td class="cell" id="item8" onclick="game(this.id)"></td>
+                <td class="cell" id="item9" onclick="game(this.id)"></td>
+            </tr>
+        </table>
+    </div>
+    <div id="back">
+    <button> New Game</button>
+    </div>
+   </div>
+   
     <script src="js/main.js"></script>
 </body>
 </html>

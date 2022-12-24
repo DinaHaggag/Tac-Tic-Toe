@@ -1,0 +1,100 @@
+
+
+/* variables */
+:root{
+    --blue : #312e81 ;
+}
+
+/* global */
+body{
+    background-color: #c7d2fe;
+}
+/* first screen */
+.first-screen {
+   
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+h1 {
+    
+   text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.start {
+   
+    margin: 20px;
+    margin-top: 50PX;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+   
+   
+}
+button {
+    width: 215px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color:  var(--blue); ;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: white;
+    color: var(--blue);
+}
+
+/* the game */
+
+.the-game {
+    display: none;
+    position: relative;
+}
+.screen {
+    border: 3px solid  var(--blue) ;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#back{
+    position: absolute;
+    top: 430px;
+    left: 50%;
+    margin-left: -107px;
+    margin-top: 40px;
+    
+}
+ 
+.box{
+    position: absolute;
+   top: 50px;
+    left: 50%;
+    margin-left: -150px;
+   
+}
+
+td{
+    border: 1px solid var(--blue);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+font-size: 80px;
+font-weight: bold;
+color: var(--blue);
+cursor: pointer;
+}
+td:hover{
+    background-color: white;
+}
+
